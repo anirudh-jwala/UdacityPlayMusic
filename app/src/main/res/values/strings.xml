@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Udacity Play Music</string>
+    <string name="splash_screen_name">Play Music</string>
+    <string name="desc_app_logo">Application Logo at the time of app launch</string>
+    <string name="top_songs">Top Songs</string>
+    <string name="top_artists">Top Artists</string>
+    <string name="catogery_melody">Melody</string>
+    <string name="catogery_edm">EDM</string>
+</resources>
