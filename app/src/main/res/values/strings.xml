@@ -9,4 +9,8 @@
     <string name="play_btn_desc">To launch playing activity</string>
     <string name="song_name">Song Name</string>
     <string name="artist_name">Artist Name</string>
+    <string name="thumbnail_image">Thumbnail view for Song image</string>
+    <string name="prev_btn">Previous Play Button</string>
+    <string name="play_btn">Play Button</string>
+    <string name="next_btn">Next Play Button</string>
 </resources>

@@ -46,14 +46,16 @@
                 android:layout_weight="1"
                 android:onClick="PreviousSong"
                 android:background="#fff"
-                android:src="@drawable/previous" />
+                android:src="@drawable/previous"
+                android:contentDescription="@string/prev_btn" />
 
             <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/play_button"
-                android:onClick="PlaySong" />
+                android:onClick="PlaySong"
+                android:contentDescription="@string/play_btn" />
 
             <ImageButton
                 android:layout_width="0dp"
@@ -61,7 +63,8 @@
                 android:layout_weight="1"
                 android:background="#fff"
                 android:onClick="NextSong"
-                android:src="@drawable/next" />
+                android:src="@drawable/next"
+                android:contentDescription="@string/next_btn" />
         </LinearLayout>
     </RelativeLayout>
 </LinearLayout>

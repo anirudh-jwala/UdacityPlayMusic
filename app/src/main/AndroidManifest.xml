@@ -24,7 +24,6 @@
 
         <activity android:name=".HomeActivity" />
         <activity android:name=".TopArtistsActivity" />
-        <activity android:name=".PlayingActivity" />
         <activity android:name=".SongPlayingActivity"></activity>
     </application>
 
