@@ -6,4 +6,5 @@
     <string name="top_artists">Top Artists</string>
     <string name="catogery_melody">Melody</string>
     <string name="catogery_edm">EDM</string>
+    <string name="play_btn_desc">To launch playing activity</string>
 </resources>

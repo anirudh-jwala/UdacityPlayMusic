@@ -17,6 +17,15 @@ public class TopSongsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.song_list);
 
+        ImageButton playBtn = (ImageButton) findViewById(R.id.play_button);
+        playBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent play = new Intent(this, SongPlayingActivity.class);
+                startActivity(play);
+            }
+        });
+
         ArrayList<Song> songs = new ArrayList<Song>();
         songs.add(new Song("Magenta Riddim", "DJ Snake", "03:14", R.drawable.ic_launcher_background));
         songs.add(new Song("Back To You", "Selena Gomez", "03:27", R.drawable.ic_launcher_background));

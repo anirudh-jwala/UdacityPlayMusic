@@ -22,7 +22,7 @@
             android:id="@+id/song_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="22sp"
+            android:textSize="18sp"
             tools:text="Beat It" />
 
         <TextView
@@ -30,7 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/song_name"
-            android:textSize="18sp"
+            android:textSize="14sp"
             tools:text="Micheal Jackson" />
 
         <TextView
@@ -49,8 +49,8 @@
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
             android:layout_above="@id/song_duration"
-            android:onClick="PlayMusic"
-            android:background="@drawable/playbutton" />
+            android:background="@drawable/playbutton"
+            android:contentDescription="@string/play_btn_desc" />
 
     </RelativeLayout>
 
