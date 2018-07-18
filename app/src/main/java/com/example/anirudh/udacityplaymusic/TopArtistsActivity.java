@@ -17,20 +17,16 @@ public class TopArtistsActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.song_list);
 
-        ImageButton playBtn = (ImageButton) findViewById(R.id.play_button);
-        playBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent play = new Intent(this, SongPlayingActivity.class);
-                startActivity(play);
-            }
-        });
-
         ArrayList<Song> songs = new ArrayList<Song>();
         songs.add(new Song("Rihanna", "Diamonds","03:45",R.drawable.ic_launcher_background));
         songs.add(new Song("Taylor Swift", "Delicate","03:23",R.drawable.ic_launcher_background));
         songs.add(new Song("Drake","God's Plan","04:21", R.drawable.ic_launcher_background));
         songs.add(new Song("Eminem","Lose Yourself","05:02",R.drawable.ic_launcher_background));
+        songs.add(new Song("Justin Bieber","Sorry","02:14",R.drawable.ic_launcher_background));
+        songs.add(new Song("Justin Bieber","Sorry","02:14",R.drawable.ic_launcher_background));
+        songs.add(new Song("Justin Bieber","Sorry","02:14",R.drawable.ic_launcher_background));
+        songs.add(new Song("Justin Bieber","Sorry","02:14",R.drawable.ic_launcher_background));
+        songs.add(new Song("Justin Bieber","Sorry","02:14",R.drawable.ic_launcher_background));
         songs.add(new Song("Justin Bieber","Sorry","02:14",R.drawable.ic_launcher_background));
 
         SongAdapter itemsAdapter = new SongAdapter(this, songs);

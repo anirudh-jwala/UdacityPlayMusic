@@ -2,7 +2,9 @@ package com.example.anirudh.udacityplaymusic;
 
 import android.content.Intent;
 
-public class Song {
+import java.io.Serializable;
+
+public class Song implements Serializable {
 
     private String mSongName;
     private String mArtistName;
