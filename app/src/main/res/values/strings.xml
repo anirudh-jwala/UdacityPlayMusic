@@ -7,4 +7,6 @@
     <string name="catogery_melody">Melody</string>
     <string name="catogery_edm">EDM</string>
     <string name="play_btn_desc">To launch playing activity</string>
+    <string name="song_name">Song Name</string>
+    <string name="artist_name">Artist Name</string>
 </resources>
