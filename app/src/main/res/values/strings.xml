@@ -13,4 +13,8 @@
     <string name="prev_btn">Previous Play Button</string>
     <string name="play_btn">Play Button</string>
     <string name="next_btn">Next Play Button</string>
+    <string name="desc_top_songs">This Activity contains Top songs to play</string>
+    <string name="desc_top_artists">Contains Top artists songs to play</string>
+    <string name="desc_song_playing_activity">This is the main song playing area that shows you which song is currently running</string>
+    <string name="desc_home">Play Music</string>
 </resources>

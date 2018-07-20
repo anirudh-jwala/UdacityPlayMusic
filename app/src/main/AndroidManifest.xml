@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.anirudh.udacityplaymusic">
 
     <application
@@ -9,8 +10,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TopSongsActivity" />
-        <activity android:name=".SplashScreen">
+        <activity
+            android:name=".TopSongsActivity"
+            android:label="@string/desc_top_songs"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/desc_home">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,9 +28,16 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name=".HomeActivity" />
-        <activity android:name=".TopArtistsActivity" />
-        <activity android:name=".SongPlayingActivity"/>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/desc_home"/>
+        <activity
+            android:name=".TopArtistsActivity"
+            android:label="@string/desc_top_artists"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".SongPlayingActivity"
+            android:label="@string/desc_song_playing_activity" />
     </application>
 
 </manifest>

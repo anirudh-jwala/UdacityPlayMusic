@@ -17,6 +17,8 @@ public class TopSongsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.song_list);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         ArrayList<Song> songs = new ArrayList<Song>();
         songs.add(new Song("Magenta Riddim", "DJ Snake", "03:14", R.drawable.music));
         songs.add(new Song("Back To You", "Selena Gomez", "03:27", R.drawable.music));

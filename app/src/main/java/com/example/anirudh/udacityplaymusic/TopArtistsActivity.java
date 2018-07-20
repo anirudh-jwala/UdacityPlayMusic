@@ -17,6 +17,8 @@ public class TopArtistsActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.song_list);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         ArrayList<Song> songs = new ArrayList<Song>();
         songs.add(new Song("Diamonds", "Rihanna","03:45",R.drawable.music));
         songs.add(new Song("Delicate", "Taylor Swift","03:23",R.drawable.music));
